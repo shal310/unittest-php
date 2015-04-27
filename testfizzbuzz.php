@@ -34,8 +34,8 @@
       $num = is_divisible_by_3(0);
       $this->assertTrue($num);
 
-      $dummudu = -1
-      $this->assertFalse(is_divisible_by_3(-1));
+      $num = -1
+      $this->assertFalse(is_divisible_by_3($num));
 
       $num = 3;
       $this->assertTrue(is_divisible_by_3($num));
